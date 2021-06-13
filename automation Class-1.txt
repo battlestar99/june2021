@@ -1,0 +1,114 @@
+learning programming is not easy
+
+how to write automated test script - 
+
+every week - homeworks 
+
+programming - coding
+answering some questions 
+
+930 - 
+
+Thursday - 2PM
+
+Tuesday and Friday - 
+new build from developer -     600 test cases - 80 reqs 
+
+100 reqs - 
+
+June 12th - release version is version 10.0 
+
+1. new module or new functionalites - new test cases 
+2. modify module - enhancement - modify test cases 
+3. bug fixing - re-test the application
+4. improvement of code - regression testing 
+
+release note - 
+
+
+
+september 12th - 11.0 
+
+phase of testing - 
+
+smoke testing - important and/or critical 
+50 test cases - stable enough to do more testing 
+
+sanity testing - new module and functionalites 
+10 test cases - 
+
+regression testing - 600 test cases - automated test script
+
+UAT - important and critical - release - 40
+
+smoke testing is a subset of UAT 
+sanity is a subset of regresion 
+
+
+100 reqs - 80 reqs - 600 manual test cases 
+
+manual test coverage - 80 percent 
+automation test coverage - 0 percent 
+
+after 6 months - 300 test cases automated - 50 reqs
+automation test coverage - 50 percent 
+
+1. regression
+2. data driven testing-automated testing
+3. 100 sets of data you are testing - 4 different browsers
+400 test cases 
+
+automation testing is for future - 
+
+2000 test cases - needs to execute every day 
+
+10 testers - 
+
+black box testing >> user perspective - finding out 
+if anything is inconsistent with the requirement 
+
+defect - 
+
+not to find the reason behind the issue
+
+white box testing >> developer - find the reason and fix it 
+
+programming language - java 
+
+web based application tool/programming library - selenium 
+
+testing related - TestNG, Cucumber 
+
+code maintanace - git, github, maven, jenkins - remote server
+ci/cd pipeline 
+
+Setting up java environment - 
+
+we are going to start the class - 930 AM 
+
+java environment - 
+
+jdk - java development kit - 8 
+
+
+eclipse - programming editor - 2019-06
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
