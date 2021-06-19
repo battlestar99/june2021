@@ -108,6 +108,34 @@ based on the credit score you get an apr
 final finance amount based on the apr 
 how many months you want to pay for the finance amount 
 monthly payment = totalfinanceamount/number of months
+100 dollar for something
+and tax is 3 percent 
+
+totaltax = 100*(3/100);
+=3
+
+
+
+
+
+
+
+1. creating class {}
+2. main method {}
+3. write all the code inside the main method 
+
+datatype variable value
+operator + - 
+conditional operation == , > , < , &&, ||
+conditional statment 
+looping >> for loop and while loop 
+
+
+starting point , condition , increament or decreament operation 
+
+x=1, x<100, x++
+
+java is a case sensitve - a and A is not same
 
 
 
@@ -122,11 +150,34 @@ monthly payment = totalfinanceamount/number of months
 
 
 
+problem : write a program to calculate the sum of first 
+10 natural numbers 
 
 
+1+2+3+4+5+6+7+8+9+10 .....+100 +.. + 999
+
+int sum = 0 ; 
+
+for (int x = 1; x<11;x++){
+
+sum=sum+x; 
+
+// sum = 1
+//sum = 3
+//sum = 6
+//sum = 10
+//sum = 15
 
 
+}
 
+data
+conditional
+loop 
+data structure - arrary, list, linkedlist, 
+function/method - 
+
+class will start at 10AM 
 
 
 
