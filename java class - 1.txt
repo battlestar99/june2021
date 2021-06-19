@@ -251,6 +251,8 @@ and print the value of those variables
 task 2: create 3 integer variables, 
 add the value in a seperate variable and print them 
 
+anik@agile1tech.com 
+
 
 
 

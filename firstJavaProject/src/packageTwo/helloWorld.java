@@ -6,6 +6,10 @@ public class helloWorld {
 		
 		
 		// TODO Auto-generated method stub
+		
+		int x = 12;
+		
+		System.out.println(x);
 
 	}
 
