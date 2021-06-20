@@ -10,11 +10,15 @@ public class takingInput {
 		int x; 
 		int y; 
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner abc = new Scanner(System.in);
 		System.out.println("Enter the first number");
-		x = sc.nextInt(); 
+		x = abc.nextInt() ;
 		System.out.println("Enter the second number");
-		y = sc.nextInt(); 
+		y = abc.nextInt(); 
+		
+		double z = abc.nextDouble();
+		
+		
 		
 		int sum = x+y; 
 		

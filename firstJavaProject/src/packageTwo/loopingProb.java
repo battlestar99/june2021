@@ -7,7 +7,7 @@ public class loopingProb {
 		
 		int sum = 0;
 		
-		int j = 100; 
+		int j = 20; 
 		
 		for(int x=1;x<j;x++) {
 			

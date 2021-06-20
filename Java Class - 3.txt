@@ -1,0 +1,181 @@
+Java Method - 
+
+datatype
+conditonal
+looping
+array
+methods / functions 
+
+Java Method - 
+
+programming library - already created by some programmers
+the codes are already there
+we need to be able to use that code 
+
+selenium, testNG, cucumber 
+
+java project - it is just folder - jre system library / jdk automatically available with the library
+
+1. jre is required to run java code so it can compile the code to
+make it understable to the computer 
+
+2. it provides us with the java core library - jdk 
+
+3rd party library - selenium, testNG, cucumber 
+
+java project - folder with jre available 
+  java package - store java classes, organize our classes,scripts
+codes 
+    class - 
+        we can run - main method 
+        we can not run - that does't have main method 
+
+what is a method ? 
+   main method - starting point of code , make a class runnable
+   other method - those are not main method 
+
+1. how to create a method? 
+2. how to use a method that is created by us? 
+3. how to use a method that is created by other programmers
+or coming from a programming library? 
+
+main method 
+
+public static void main(String args[]){
+}
+
+
+
+regular method - a method is a bunch of code that we use 
+for a specific purpose 
+
+1. it can create re-usuable code 
+2. it can distribute the programming task 
+
+input - method - output 
+
+public - access modifier - from which class you can access another class or method 
+
+return type 
+public returntype functionaname(int x){
+
+
+}
+
+
+public int getnumber(int x, int y){
+
+
+}
+
+what will be the inputs and output of the method? 
+
+that depends on what you want the method to do
+
+input can be multiple
+but output is always one 
+
+
+problem 1; Create a method that will take credit score as input
+and provide apr as output 
+
+input - int
+output - double 
+
+
+
+
+
+
+
+template of the method or functions - 
+
+public String getsomething(){
+
+
+}
+
+runnable class - main method
+non - runnable class - doesn't have main method 
+
+public returntype methodname
+
+2. how to use a method - 
+
+you have to create an object of the class 
+and the object can use the method 
+
+object oriented programming >> 
+
+classname objectname = new classname();
+
+class - is a prototype or design about what it can store and do
+
+object - is the implementation of the class
+
+design of car - 
+
+create an object to use the method from any class
+
+when we call a function 
+
+       1. from which class the function is coming - so we can object
+of the class and use the function 
+      2. what are the parameters and return type of the function 
+
+get()
+sendkeys()
+findelement()
+
+15-20 functions 
+
+1. how to create a function 
+
+public returntype functionanme(parameters){
+
+write what the function is going to do 
+you return the value
+
+}
+
+class name data 
+public int addData(String x) {
+
+
+return integervalue; 
+}
+
+main method(){
+
+data d=new data(); 
+d.adddata("dfa");
+
+
+}
+
+how do you know about the functions 
+
+has documentation >> go through the docs 
+
+package - class - functions there
+
+
+15-20 functions 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
