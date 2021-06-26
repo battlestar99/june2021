@@ -162,7 +162,26 @@ package - class - functions there
 
 15-20 functions 
 
+3rd party libraries - 
 
+input >> system >> output 
+
+input - the parameters - data 
+system - method or function
+output - return type 
+
+classname
+public returntype functionname(parameters){
+
+write the function
+
+}
+
+in a seperate class in main method : 
+
+classaname objectname = new classname(); 
+
+anik@agile1tech.com
 
 
 

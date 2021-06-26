@@ -1,0 +1,172 @@
+Java Method - instructions and code 
+
+re-use
+
+
+create - 
+
+non-runnable - 
+public returntype nameofthemethod(parameters){
+
+
+
+}
+
+public int go(String x){
+
+
+return 12;
+}
+
+using a method - 
+
+1. creating an object of the class 
+
+car c = new car(); 
+
+c.go
+what is non-runnable class 
+
+prototype or design of something
+
+non-runnable class - 
+
+feature : 
+
+action of the class >> what it can do >> methods 
+properties of the class >> what it is >> global variable 
+
+if you create any variable inside a function that only exist
+inside the function - local variable 
+
+if we create a variable inside a class but not inside any function that is a global variable - 
+
+what caraction class can do
+start
+getmileage
+getcarvin
+troubleshoot
+breakCar 
+
+
+what are the properties of the class
+carmilleage 
+ownername
+email
+isfourdoors
+color
+
+
+
+properties
+car has milleage
+car has ownername
+car has email
+car has isfourdoors
+car has color 
+
+method 
+car can start
+car can getcarmilleage
+car can getcarvin
+car can troubleshoot
+car can breakcar
+
+
+traditional > method means bunch of code that can be executed
+upon called 
+
+OOP > what class can do 
+
+Object oriented programming >> larger system 
+
+facebook is a class 
+all the users are object of the class
+can do the same thing
+chat
+post
+postpic
+comment 
+
+same properties
+username
+password
+email
+address
+phonenumber 
+
+
+
+
+your system is not doing any OOP 
+functions or methods for traditional 
+
+bunch of lines of instruction - 
+
+static 
+
+local variable
+global variable
+static
+
+programming library - selenium 
+
+nothing but non-runnable classe
+
+non-runnable classes >> functions 
+
+selenium webdriver - java programming library 
+C#/python/java script/ruby 
+
+every java programming - jar file 
+
+selenium webdriver library has >> 
+
+functional UI testing for web based application 
+
+browser automation tool 
+
+web based application - the app that runs in a browser
+chrome, mozila , IE, safari 
+
+test case >> excel, word, zephyr, 
+
+test script >> writing code 
+
+step 1: opening up a browser
+step 2: navigating to the url 
+step 3: entering an username
+step 4: entersing a password 
+step 5: click on submit buttion 
+expected result : user should be able to login
+actual result :: user is able to login 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
