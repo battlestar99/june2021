@@ -141,6 +141,22 @@ step 5: click on submit buttion
 expected result : user should be able to login
 actual result :: user is able to login 
 
+step 1 : to setup selenium 
+
+jar files >> 
+maven repository 
+
+selenium version - 2.53 
+
+selenium java
+selenium server-standalone 
+
+
+1. google chrome browser - installed - find the version number
+2. chromedriver 
+
+
+
 
 
 
