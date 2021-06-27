@@ -1,0 +1,330 @@
+Java Method - instructions and code 
+
+re-use
+
+
+create - 
+
+non-runnable - 
+public returntype nameofthemethod(parameters){
+
+
+
+}
+
+public int go(String x){
+
+
+return 12;
+}
+
+using a method - 
+
+1. creating an object of the class 
+
+car c = new car(); 
+
+c.go
+what is non-runnable class 
+
+prototype or design of something
+
+non-runnable class - 
+
+feature : 
+
+action of the class >> what it can do >> methods 
+properties of the class >> what it is >> global variable 
+
+if you create any variable inside a function that only exist
+inside the function - local variable 
+
+if we create a variable inside a class but not inside any function that is a global variable - 
+
+what caraction class can do
+start
+getmileage
+getcarvin
+troubleshoot
+breakCar 
+
+
+what are the properties of the class
+carmilleage 
+ownername
+email
+isfourdoors
+color
+
+
+
+properties
+car has milleage
+car has ownername
+car has email
+car has isfourdoors
+car has color 
+
+method 
+car can start
+car can getcarmilleage
+car can getcarvin
+car can troubleshoot
+car can breakcar
+
+
+traditional > method means bunch of code that can be executed
+upon called 
+
+OOP > what class can do 
+
+Object oriented programming >> larger system 
+
+facebook is a class 
+all the users are object of the class
+can do the same thing
+chat
+post
+postpic
+comment 
+
+same properties
+username
+password
+email
+address
+phonenumber 
+
+
+
+
+your system is not doing any OOP 
+functions or methods for traditional 
+
+bunch of lines of instruction - 
+
+static 
+
+local variable
+global variable
+static
+
+programming library - selenium 
+
+nothing but non-runnable classe
+
+non-runnable classes >> functions 
+
+selenium webdriver - java programming library 
+C#/python/java script/ruby 
+
+every java programming - jar file 
+
+selenium webdriver library has >> 
+
+functional UI testing for web based application 
+
+browser automation tool 
+
+web based application - the app that runs in a browser
+chrome, mozila , IE, safari 
+
+test case >> excel, word, zephyr, 
+
+test script >> writing code 
+
+step 1: opening up a browser
+step 2: navigating to the url 
+step 3: entering an username
+step 4: entersing a password 
+step 5: click on submit buttion 
+expected result : user should be able to login
+actual result :: user is able to login 
+
+step 1 : to setup selenium 
+
+jar files >> 
+maven repository 
+
+selenium version - 2.53 
+
+selenium java
+selenium server-standalone 
+
+
+1. google chrome browser - installed - find the version number
+2. chromedriver 
+
+selenium - 15-20 functions 
+testng - 4-5 functions
+cucumber - 
+
+
+
+
+Selenium Class - June 27th 
+
+what is selenium? what selenium can do? why we are using
+selenium? 
+
+selenium programming library - a lot of functions 
+3rd party library - not part of the jdk 
+
+programming library - functions created by some other programmers - and anyone can use it 
+
+what it can do? 
+browser interaction tool - chrome, mozila, IE
+web brwoser automation tool - functional UI testing 
+
+functional tester >> automation testing is important 
+for regression testing  
+
+test script ( automation)  - test case ( manual) 
+
+how to write test steps - 
+
+Selenium interaction: 
+
+1. interacting with the browser - browser functionalities 
+opening up brwoser
+navigate to an url
+read title and url of any page 
+forward, backward, refresh 
+close the browser 
+
+2. web-app , web elements/ web objects 
+
+3 tiers application 
+software testing team - 
+
+front-end >> functional UI testing - selenium can only 
+interact with this part 
+70-80 percent task - 
+
+web service/api >> api testing >> postman
+
+database >> database testing >> sql queries 
+
+
+HTML and CSS 
+
+hypertext markup languge - web elements, size, content 
+cascading style sheet - color and design
+
+what is an webelement? 
+
+that an user can interact 
+
+textbox 
+button
+links
+drop down menu
+radio button
+check box 
+pop ups 
+mouse hovering
+
+1. finding a webelement - 
+
+main locating techniques
+id
+name
+xpath
+cssselector 
+
+finding links 
+linktext
+partial link text 
+
+unimportnet 
+tag - 
+class
+
+
+
+
+2. interaction - type, click, select 
+
+
+first name text box 
+
+<input type="text" id="usernamereg-firstName" 
+class="ureg-fname input-with-icon icon-name " autocomplete="given-name" 
+name="firstName" placeholder="First&nbsp;name" aria-label="First&nbsp;name" value="" maxlength="32" aria-required="true" aria-invalid="false">
+
+time till 12:15 
+class task 1: 
+step 1: opening up google chrome browser 
+step 2: navigate to https://www.saucedemo.com/
+step 3: validate if user name is displayed in the page
+step 4: validate if password is displayed in the page 
+step 5: validate if login button is with the right text 
+
+print all the value that you validated 
+
+class task 2: 
+step 1: opening up google chrome browser 
+step 2: navigate to https://www.saucedemo.com/
+step 3: enter standard user name
+step 4: enter password 
+step 5: click on login 
+step 6: validate user reached the right page after login 
+hint: read the title and url of the page after login and print it 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
