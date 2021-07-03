@@ -285,6 +285,22 @@ hint: read the title and url of the page after login and print it
 linktext: any webelement code starts with a tag or anchor tag
 is a link
 
+car class 
+
+int x
+string
+home h ; 
+function call go 
+
+
+home class ; 
+
+lift(); 
+
+car c = new car(); 
+
+c.go()
+
 
 
 
