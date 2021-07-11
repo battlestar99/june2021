@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5523" started-at="2021-07-11T17:11:44Z" finished-at="2021-07-11T17:11:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5523" started-at="2021-07-11T17:11:44Z" finished-at="2021-07-11T17:11:50Z">
+      <class name="testPack.SauceDemoNGV2">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testPack.SauceDemoNGV2@1e730495]" name="setupTest" is-config="true" duration-ms="1620" started-at="2021-07-11T13:11:44Z" finished-at="2021-07-11T13:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testPack.SauceDemoNGV2@1e730495]" name="beforeEachTest" is-config="true" duration-ms="37" started-at="2021-07-11T13:11:46Z" finished-at="2021-07-11T13:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="login_Element_Validation()[pri:1, instance:testPack.SauceDemoNGV2@1e730495]" name="login_Element_Validation" duration-ms="196" started-at="2021-07-11T13:11:46Z" finished-at="2021-07-11T13:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Element_Validation -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testPack.SauceDemoNGV2@1e730495]" name="beforeEachTest" is-config="true" duration-ms="84" started-at="2021-07-11T13:11:46Z" finished-at="2021-07-11T13:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="PASS" signature="naegative_login_Validation()[pri:2, instance:testPack.SauceDemoNGV2@1e730495]" name="naegative_login_Validation" duration-ms="258" started-at="2021-07-11T13:11:46Z" finished-at="2021-07-11T13:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naegative_login_Validation -->
+        <test-method status="PASS" signature="beforeEachTest()[pri:0, instance:testPack.SauceDemoNGV2@1e730495]" name="beforeEachTest" is-config="true" duration-ms="60" started-at="2021-07-11T13:11:46Z" finished-at="2021-07-11T13:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTest -->
+        <test-method status="FAIL" signature="positive_login_Validation()[pri:3, instance:testPack.SauceDemoNGV2@1e730495]" name="positive_login_Validation" duration-ms="353" started-at="2021-07-11T13:11:46Z" finished-at="2021-07-11T13:11:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory1.html] but found [https://www.saucedemo.com/inventory.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory1.html] but found [https://www.saucedemo.com/inventory.html]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at testPack.SauceDemoNGV2.positive_login_Validation(SauceDemoNGV2.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positive_login_Validation -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testPack.SauceDemoNGV2@1e730495]" name="endTest" is-config="true" duration-ms="2896" started-at="2021-07-11T13:11:47Z" finished-at="2021-07-11T13:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testPack.SauceDemoNGV2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,127 @@
+Java - programming language
+selenium - programming library for browser interaction
+
+TestNG - Cucumber >> Testing library, Test framework - use 
+create - object driven, data driven
+
+python, C#, ruby, javascript 
+
+Features: 
+
+1. organization of the code - done
+2. creating a pass/fail scenerio - 
+3. create test suite 
+4. generate a report - done 
+5. data driven testing 
+
+TestNG - testing library - 
+
+replace the main method of java - 
+
+Test Script - is always a runnable class
+
+main method of java to make a test script
+TestNG to make test script 
+
+
+1. Annotations  - organizing our code 
+
+@BeforeTest
+public void setupTest(){
+
+// pre requirement/ pre - condition  of the test 
+}
+
+@Test
+public void mainTest(){
+
+// main test or the full test 
+}
+
+@AfterTest
+public void endTest(){
+
+// post requirement of the test 
+
+}
+
+
+Key point: the sequence of the annotations are pre-defined 
+
+
+
+
+
+TestNG >> Test Next Generation 
+Junit -
+
+
+
+300 scripts - 300 classes 
+
+@Test - 700 times >> 700 test cases 
+
+@BeforeTest - pre-condition of all the test 
+@BeforeMethod - pre-condition before each test 
+@Test - the test/tests or main test 
+@AfterMethod - post-condition after each test 
+@AfterTest - post-condition of all the tests 
+
+
+
+the sequence - 
+
+beforetest 
+beforemethod
+test1
+aftermethod
+beforemthod
+test2
+aftermethod 
+aftertest
+
+click
+clear
+itisdisplayed 
+
+public void click()
+
+Assertion - basically comparing two values and make the test
+pass or fail 
+
+assertTrue(false)
+
+Test Fails mean and only mean >> there is an assertion exception - defect 
+
+any other exception is code failure 
+
+description: tested with positive data for the l ogin modeul 
+username : something
+password: something 
+
+it doesnt let the user login to inventory page. 
+
+Tested with mozila firefox version - 40.5 
+environment : regression 
+snap shot : add the image 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
