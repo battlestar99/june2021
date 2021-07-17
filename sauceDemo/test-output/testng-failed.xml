@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Testing]">
+  <parameter name="password" value="secret12232"/>
+  <parameter name="experctedresult" value="https://www.saucedemo.com/"/>
+  <parameter name="username" value="performance_glitch_user"/>
+  <test name="Negative data Testing(failed)">
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="experctedresult" value="https://www.saucedemo.com/inventory.html"/>
+    <parameter name="username" value="locked_out_user"/>
+    <classes>
+      <class name="sauceDemoTest.sauceDemoLogin">
+        <methods>
+          <include name="dataloginValidation" invocation-numbers="0"/>
+          <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.sauceDemoLogin -->
+    </classes>
+  </test> <!-- Negative data Testing(failed) -->
+</suite> <!-- Failed suite [Login Testing] -->

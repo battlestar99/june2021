@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Login Testing">
+
+<test name="Positive data Testing -1 ">
+
+<parameter name="username" value="standard_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<parameter name="experctedresult" value="https://www.saucedemo.com/inventory.html"></parameter>
+
+
+<classes>
+
+<class name = "sauceDemoTest.sauceDemoLogin"></class>
+
+</classes>
+</test>
+
+<test name="Positive data Testing -2 ">
+
+<parameter name="username" value="standard_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<parameter name="experctedresult" value="https://www.saucedemo.com/inventory.html"></parameter>
+
+
+<classes>
+
+<class name = "sauceDemoTest.sauceDemoLogin"></class>
+
+</classes>
+</test>
+
+
+
+
+
+<test name="Negative data Testing">
+
+<parameter name="username" value="locked_out_user"></parameter>
+<parameter name="password" value="secret_sauce"></parameter>
+<parameter name="experctedresult" value="https://www.saucedemo.com/"></parameter>
+<classes>
+
+<class name = "sauceDemoTest.sauceDemoLogin"></class>
+
+</classes>
+</test>
+
+
+<test name="Problem User data Testing">
+
+<parameter name="username" value="problem_user"></parameter>
+<parameter name="password" value="secret1212"></parameter>
+<parameter name="experctedresult" value="https://www.saucedemo.com/"></parameter>
+<classes>
+
+<class name = "sauceDemoTest.sauceDemoLogin"></class>
+
+</classes>
+</test>
+
+
+<test name="Glitch User data Testing">
+
+<parameter name="username" value="performance_glitch_user"></parameter>
+<parameter name="password" value="secret12232"></parameter>
+<parameter name="experctedresult" value="https://www.saucedemo.com/"></parameter>
+<classes>
+
+<class name = "sauceDemoTest.sauceDemoLogin"></class>
+
+</classes>
+</test>
+
+
+
+
+
+
+
+
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UAT testing]">
+  <test name="User acceptance Testing(failed)">
+    <classes>
+      <class name="sauceDemoTest.basicNG">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="loginTest"/>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.basicNG -->
+    </classes>
+  </test> <!-- User acceptance Testing(failed) -->
+</suite> <!-- Failed suite [UAT testing] -->

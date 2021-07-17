@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Testing Sauce Demo]">
+  <test name="Resgression sprint 2.1(failed)">
+    <classes>
+      <class name="sauceDemoTest.basicNG">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="loginTest"/>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+          <include name="afterEachTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.basicNG -->
+      <class name="sauceDemoTest.sauceDemoLogin">
+        <methods>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.sauceDemoLogin -->
+      <class name="sauceDemoTest.productValidation">
+        <methods>
+          <include name="setupTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.productValidation -->
+      <class name="sauceDemoTest.sauceDemoNG">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="setupTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.sauceDemoNG -->
+      <class name="sauceDemoTest.SauceDemoNGV2">
+        <methods>
+          <include name="endTest"/>
+          <include name="setupTest"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- sauceDemoTest.SauceDemoNGV2 -->
+    </classes>
+  </test> <!-- Resgression sprint 2.1(failed) -->
+</suite> <!-- Failed suite [Regression Testing Sauce Demo] -->

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Login_Testing">
+              <span class="suite-name border-passed">Login Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Login_Testing">
+                    <span>C:\Users\Agile1Tech\Desktop\eclipse_ws_june\sauceDemo\src\loginData.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Login_Testing">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Login_Testing">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Login_Testing">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Login_Testing">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Login_Testing">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Login_Testing">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Login_Testing" class="hide-methods passed suite-Login_Testing"> (hide)</a> <!-- hide-methods passed suite-Login_Testing -->
+                      <a href="#" panel-name="suite-Login_Testing" class="show-methods passed suite-Login_Testing"> (show)</a> <!-- show-methods passed suite-Login_Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Login_Testing">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login_Testing" title="sauceDemoTest.sauceDemoLogin" hash-for-method="dataloginValidation(problem_user, secret1212, https://www.saucedemo.com/)">dataloginValidation(problem_user, secret1212, https://www.saucedemo.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login_Testing" title="sauceDemoTest.sauceDemoLogin" hash-for-method="dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login_Testing" title="sauceDemoTest.sauceDemoLogin" hash-for-method="dataloginValidation(performance_glitch_user, secret12232, https://www.saucedemo.com/)">dataloginValidation(performance_glitch_user, secret12232, https://www.saucedemo.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login_Testing" title="sauceDemoTest.sauceDemoLogin" hash-for-method="dataloginValidation(locked_out_user, secret_sauce, https://www.saucedemo.com/)">dataloginValidation(locked_out_user, secret_sauce, https://www.saucedemo.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login_Testing" title="sauceDemoTest.sauceDemoLogin" hash-for-method="dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Login_Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Login_Testing" class="panel Login_Testing">
+          <div class="suite-Login_Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">sauceDemoTest.sauceDemoLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataloginValidation(problem_user, secret1212, https://www.saucedemo.com/)">
+                  </a> <!-- dataloginValidation(problem_user, secret1212, https://www.saucedemo.com/) -->
+                  <span class="method-name">dataloginValidation</span>
+                  <span class="parameters">(problem_user, secret1212, https://www.saucedemo.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
+                  </a> <!-- dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
+                  <span class="method-name">dataloginValidation</span>
+                  <span class="parameters">(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataloginValidation(performance_glitch_user, secret12232, https://www.saucedemo.com/)">
+                  </a> <!-- dataloginValidation(performance_glitch_user, secret12232, https://www.saucedemo.com/) -->
+                  <span class="method-name">dataloginValidation</span>
+                  <span class="parameters">(performance_glitch_user, secret12232, https://www.saucedemo.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataloginValidation(locked_out_user, secret_sauce, https://www.saucedemo.com/)">
+                  </a> <!-- dataloginValidation(locked_out_user, secret_sauce, https://www.saucedemo.com/) -->
+                  <span class="method-name">dataloginValidation</span>
+                  <span class="parameters">(locked_out_user, secret_sauce, https://www.saucedemo.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)">
+                  </a> <!-- dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html) -->
+                  <span class="method-name">dataloginValidation</span>
+                  <span class="parameters">(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_Testing-class-passed -->
+        </div> <!-- panel Login_Testing -->
+        <div panel-name="test-xml-Login_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Agile1Tech\Desktop\eclipse_ws_june\sauceDemo\src\loginData.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Login Testing&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Positive data Testing -1 &quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;experctedresult&quot; value=&quot;https://www.saucedemo.com/inventory.html&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sauceDemoTest.sauceDemoLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Positive data Testing -1  --&gt;
+  &lt;test name=&quot;Positive data Testing -2 &quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;experctedresult&quot; value=&quot;https://www.saucedemo.com/inventory.html&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sauceDemoTest.sauceDemoLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Positive data Testing -2  --&gt;
+  &lt;test name=&quot;Negative data Testing&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;experctedresult&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;locked_out_user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sauceDemoTest.sauceDemoLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Negative data Testing --&gt;
+  &lt;test name=&quot;Problem User data Testing&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret1212&quot;/&gt;
+    &lt;parameter name=&quot;experctedresult&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;problem_user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sauceDemoTest.sauceDemoLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Problem User data Testing --&gt;
+  &lt;test name=&quot;Glitch User data Testing&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;secret12232&quot;/&gt;
+    &lt;parameter name=&quot;experctedresult&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;performance_glitch_user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;sauceDemoTest.sauceDemoLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Glitch User data Testing --&gt;
+&lt;/suite&gt; &lt;!-- Login Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Login_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Login Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Positive data Testing -1  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Positive data Testing -2  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Negative data Testing (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Problem User data Testing (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Glitch User data Testing (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Login_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Login Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Login_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Login Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Login_Testing');
+function tableData_Login_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'dataloginValidation')
+data.setCell(0, 2, 'sauceDemoTest.sauceDemoLogin')
+data.setCell(0, 3, 5770);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dataloginValidation')
+data.setCell(1, 2, 'sauceDemoTest.sauceDemoLogin')
+data.setCell(1, 3, 5743);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dataloginValidation')
+data.setCell(2, 2, 'sauceDemoTest.sauceDemoLogin')
+data.setCell(2, 3, 5534);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'dataloginValidation')
+data.setCell(3, 2, 'sauceDemoTest.sauceDemoLogin')
+data.setCell(3, 3, 5212);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'dataloginValidation')
+data.setCell(4, 2, 'sauceDemoTest.sauceDemoLogin')
+data.setCell(4, 3, 5156);
+window.suiteTableData['Login_Testing']= { tableData: data, tableDiv: 'times-div-Login_Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-Login_Testing">
+              </div> <!-- times-div-Login_Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Login_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Login Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Login_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Login_Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">sauceDemoTest.sauceDemoLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">dataloginValidation(locked_out_user, secret_sauce, https://www.saucedemo.com/)</span>
+                <span class="method-start">3511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                <span class="method-start">3519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataloginValidation(standard_user, secret_sauce, https://www.saucedemo.com/inventory.html)</span>
+                <span class="method-start">3654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataloginValidation(problem_user, secret1212, https://www.saucedemo.com/)</span>
+                <span class="method-start">3888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dataloginValidation(performance_glitch_user, secret12232, https://www.saucedemo.com/)</span>
+                <span class="method-start">3944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">9056 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">9101 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">9102 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">9256 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">9425 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

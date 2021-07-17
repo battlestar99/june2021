@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="UAT testing">
+
+<test name="User acceptance Testing">
+
+<classes>
+
+
+<class name="sauceDemoTest.basicNG"></class>
+
+
+</classes>
+</test>
+
+</suite>

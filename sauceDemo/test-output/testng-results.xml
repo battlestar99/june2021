@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login Testing" duration-ms="10704" started-at="2021-07-17T17:44:06Z" finished-at="2021-07-17T17:44:16Z">
+    <groups>
+    </groups>
+    <test name="Problem User data Testing" duration-ms="10594" started-at="2021-07-17T17:44:06Z" finished-at="2021-07-17T17:44:16Z">
+      <class name="sauceDemoTest.sauceDemoLogin">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@6767c1fc]" name="setupTest" is-config="true" duration-ms="3888" started-at="2021-07-17T13:44:06Z" finished-at="2021-07-17T13:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="dataloginValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTest.sauceDemoLogin@6767c1fc]" name="dataloginValidation" duration-ms="5212" started-at="2021-07-17T13:44:10Z" finished-at="2021-07-17T13:44:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret1212]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataloginValidation -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@6767c1fc]" name="endTest" is-config="true" duration-ms="1488" started-at="2021-07-17T13:44:15Z" finished-at="2021-07-17T13:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- sauceDemoTest.sauceDemoLogin -->
+    </test> <!-- Problem User data Testing -->
+    <test name="Positive data Testing -2 " duration-ms="10579" started-at="2021-07-17T17:44:06Z" finished-at="2021-07-17T17:44:16Z">
+      <class name="sauceDemoTest.sauceDemoLogin">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@68be2bc2]" name="setupTest" is-config="true" duration-ms="3519" started-at="2021-07-17T13:44:06Z" finished-at="2021-07-17T13:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="dataloginValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTest.sauceDemoLogin@68be2bc2]" name="dataloginValidation" duration-ms="5534" started-at="2021-07-17T13:44:09Z" finished-at="2021-07-17T13:44:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataloginValidation -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@68be2bc2]" name="endTest" is-config="true" duration-ms="1519" started-at="2021-07-17T13:44:15Z" finished-at="2021-07-17T13:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- sauceDemoTest.sauceDemoLogin -->
+    </test> <!-- Positive data Testing -2  -->
+    <test name="Glitch User data Testing" duration-ms="10672" started-at="2021-07-17T17:44:06Z" finished-at="2021-07-17T17:44:16Z">
+      <class name="sauceDemoTest.sauceDemoLogin">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@cb5822]" name="setupTest" is-config="true" duration-ms="3943" started-at="2021-07-17T13:44:06Z" finished-at="2021-07-17T13:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="dataloginValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTest.sauceDemoLogin@cb5822]" name="dataloginValidation" duration-ms="5156" started-at="2021-07-17T13:44:10Z" finished-at="2021-07-17T13:44:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret12232]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataloginValidation -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@cb5822]" name="endTest" is-config="true" duration-ms="1567" started-at="2021-07-17T13:44:15Z" finished-at="2021-07-17T13:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- sauceDemoTest.sauceDemoLogin -->
+    </test> <!-- Glitch User data Testing -->
+    <test name="Negative data Testing" duration-ms="10672" started-at="2021-07-17T17:44:06Z" finished-at="2021-07-17T17:44:16Z">
+      <class name="sauceDemoTest.sauceDemoLogin">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@7823a2f9]" name="setupTest" is-config="true" duration-ms="3503" started-at="2021-07-17T13:44:06Z" finished-at="2021-07-17T13:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="dataloginValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTest.sauceDemoLogin@7823a2f9]" name="dataloginValidation" duration-ms="5743" started-at="2021-07-17T13:44:09Z" finished-at="2021-07-17T13:44:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataloginValidation -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@7823a2f9]" name="endTest" is-config="true" duration-ms="1412" started-at="2021-07-17T13:44:15Z" finished-at="2021-07-17T13:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- sauceDemoTest.sauceDemoLogin -->
+    </test> <!-- Negative data Testing -->
+    <test name="Positive data Testing -1 " duration-ms="10704" started-at="2021-07-17T17:44:06Z" finished-at="2021-07-17T17:44:16Z">
+      <class name="sauceDemoTest.sauceDemoLogin">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@5d5eef3d]" name="setupTest" is-config="true" duration-ms="3652" started-at="2021-07-17T13:44:06Z" finished-at="2021-07-17T13:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="dataloginValidation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sauceDemoTest.sauceDemoLogin@5d5eef3d]" name="dataloginValidation" duration-ms="5770" started-at="2021-07-17T13:44:09Z" finished-at="2021-07-17T13:44:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/inventory.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataloginValidation -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:sauceDemoTest.sauceDemoLogin@5d5eef3d]" name="endTest" is-config="true" duration-ms="1275" started-at="2021-07-17T13:44:15Z" finished-at="2021-07-17T13:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- sauceDemoTest.sauceDemoLogin -->
+    </test> <!-- Positive data Testing -1  -->
+  </suite> <!-- Login Testing -->
+</testng-results>
