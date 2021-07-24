@@ -1,0 +1,290 @@
+Automation Testing - 
+excellent - 
+medium - 
+much preparetion - 
+
+automation technical 
+SDET >> software development engineer in test 
+QA Engineer >> 
+Automation tester>> 
+QA Analyst >> 
+QA Tester 
+Manual Tester 
+
+
+1. topics covered already 
+
+2. what to focus for the interview
+
+manual testing >> 
+
+test case
+test plan
+test strategy 
+
+use case, user stories, tracibility matrix 
+
+defect tracking process 
+
+agile-scrum 
+
+type of testing >> smoke, regression, UAT, sanity
+
+end to end testing 
+
+SDLC >> 
+
+project >> 
+
+responsibilities >> 
+
+3. how to prepare yourself to do best at the interview 
+
+4. strength and weakness 
+
+
+1. go over all the questions and answers 
+
+
+step 1: 
+requirments analysis: 
+who, which form, analyze, if you dont have reqs can 
+you write test case 
+
+step 2: test case 
+
+start, tools, share, reveiw, test plan, update test case why 
+
+step 3: executing test case 
+
+how you execute, manual, automated test case, test suite, 
+tracibility matrix, testing covergage, automation testing coverage 
+smoke 
+regression
+sanity
+uat 
+
+type of test case ; end to end testing, test data, 
+
+step 4: defect 
+recreate, log defect, description of defect, communicate with
+developer, close 
+
+team aspects : 
+agile-scrum
+sprint, meetings, 
+
+communication or beahvioural aspects: 
+conflict, manage/developer, challanges , struggles, praised 
+
+
+
+
+tracibility matrix - excel 
+
+req 1:                        test case 101, test case 102 
+
+
+
+
+req 13                        test case 145, 156, 132 
+
+
+
+
+req 100 : 
+
+80 of them << 80 percent 
+
+50 of them >> 50 percent automation testing covergate 
+
+tracibility matrix : 
+
+reqs , user stories, 
+
+test case >> validate, verify
+use case >> 
+
+test plan: 
+
+scope 
+objectives
+test environment
+test data
+test case
+exit / entrance
+
+
+how do you write automated test scripts? 
+
+new builds with new reqs implemented 
+
+manual testing >> smoke testing 
+
+new test scripts, add it to the regression test suite 
+
+convert manual test case to automation test case
+directly from reqs
+or any other way 
+test case >> manual test case, automation test case
+
+test script>> automation 
+
+sprint 1 _ user stories 
+
+smoke testing and regressoin 
+
+sprint 2 - some development done 
+
+create and execute new test case 
+
+smoke test suite
+regression test suite 
+
+test script >> 
+convert manual test cases
+or writing directly from user stories 
+
+type of testing: 
+end of release version 12: 
+
+Total >> 100 reqs , 20 reqs has no test case 
+
+80 reqs >> 250 manual test cases , 80 percent 
+
+30 reqs >> 80 test scripts, 30 percent 
+
+manual test case : 250 test cases 
+
+smoke testing : important and critical functionalities
+
+40 test cases are for smoke : 
+50 test cases 
+regression testing: 
+250 test cases , every day 
+
+sanity : 
+
+new functionalities never test before, re-test 
+
+UAT : acceptacne criterion 
+before it goes to release 
+
+user acceptance testing 
+
+before deploying : 
+
+
+
+
+
+
+
+
+250 test cases 
+
+250 - regression - regular basis 
+important and critical - smoke - 50 - do first 
+new and re-test - sanity - new development
+acceptance criterion - UAT - before deployment 
+
+change in the application >> 
+
+new build >> there are some code changes that developer 
+pushed in the repository 
+smoke testing
+regression testing 
+
+
+new build >> there is a code update
+it does not necessarily mean there is new development 
+
+automation testing: 
+test suite : collection of test cases 
+
+
+
+1. how your framework looks like 
+
+java-selenium-testng 
+java-selenium - cucumber 
+
+testng xml - smoke, regression
+
+test scripts , page object model
+object driven , data driven 
+
+
+
+2. pass/fail scenario 
+
+assertion
+
+
+
+3. report 
+
+100 test annotations >> 
+
+html file general 
+
+4. what do you do after getting defect
+
+
+
+5. test suite 
+
+
+
+
+
+page object model - with select 
+
+regression testing >> 
+
+customer for a e-commerce site 
+
+login>> search for product>> add to cart>> go to checkout>> 
+payment done 
+
+10 hours study 
+
+start with the easy thing 
+
+page object model >> 
+homepage 
+
+hp 
+getdropdwosn
+
+
+select dd = new select(hp.getdropdown()); 
+
+cucumber : bdd - behaviour driven development 
+
+cucumber - 
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
