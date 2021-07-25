@@ -1,0 +1,270 @@
+github - 
+sample codes, notes 
+
+jdk - version 8 - java development kit 
+ 
+what is computer programming? 
+
+a way to tell computer what to do 
+
+procedures 
+9AM - need to check email
+930 - respond to customers
+11 - meet with customer 
+
+code- program - procedure 
+
+programming language - java, python, C#, ruby 
+
+compiler / interpreter 
+
+
+machine language - 10101010101010
+
+a procedure is set of instructions - 
+5 instructions
+
+1000 instructions 
+
+what problem computer can actually solve? 
+
+give me the route to go to newyork? 
+
+Basic computer programming knowledge is common
+for any programming language 
+
+1. how in any specific programming lanauge computer
+can store data 
+
+2. conditional statment - 
+
+3. loop - execute the same taks as many times as we want 
+
+4. how computer can store huge amount of data 
+array, list, 
+
+5. how we can create re-usuable procedure - methods/funtions 
+
+
+selenium, testng, cucumber
+
+eclipse - intelligent programming editor 
+
+editor - ms word 
+notepad - 
+
+intellingent editore to write editor - 
+
+intellij, sublime, drjava
+
+jdk - java development kit - once it is installed, you dont need to worry about this anymore 
+
+jdk - jre + core java library 
+
+jre - java runtime environment 
+
+core java library 
+
+lesson 1: creating a java project 
+
+capital case - 
+small case - 
+
+camel case - firstJavaProject
+
+project
+package
+class
+variables
+
+naming conventions for java
+a. no space
+b. dont use any number 
+
+lesson 2: src folder is the place where we keep all our own 
+code 
+
+
+lesson 3: structure of Java Program - 
+
+one java program - one java class
+
+all the code we are going to write will be inside the java class
+
+java package is a java folder 
+
+why 
+how 
+
+
+every java class is a .java file 
+when you run the class - 
+if you run a class - 
+compile >> .class
+run
+
+what is a java class ? 
+
+java class is the basic unit of any java program
+
+public class nameoftheclass { 
+
+
+
+}
+
+java keywords are reserved only for java system 
+
+52
+
+every java statment finishes with a semicolon 
+
+1. scope - {} - class, method, conditional, looping - it works
+within a specific scope 
+2. statment - ; - a line of instruction finishes with semicolon 
+
+if you want to run a java code - you need main method 
+
+runnable class >> class that comes with main method of java
+we can run as java application
+
+non-runnble class>> class that doesn't come with main method
+we can not run
+
+
+1. how in any specific programming lanauge computer
+can store data 
+
+what kind of data you want to store? 
+
+number name ssn emailaddress amount of money carplate number
+
+java supports specific data type to store data 
+
+datatype variablename = data ; 
+
+100 
+
+int x = 100; 
+
+datatype - int >> we can store any whole number 100, 200, 299
+we can count, add, subtract, multiply, division
+String >> it can store any set of character anik, virginia, 234433
+123 34 2345, 6543
+
+double >> we can store any decimal - 100.10, 65.43
+
+boolean >> can store only true of false 
+
+
+
+
+
+
+datatype variablename = data ; 
+
+345 
+
+int numberone = 345; 
+int numberTwo=322; 
+
+what is a variable? 
+placeholder >> its basically a memory location of your computer
+
+double y
+
+
+
+
+int x = 123; 
+
+x= 12.32
+String name = "Michael";
+double y = 14.32; 
+boolean flag = true; 
+flag = 12;
+
+creating a data works in two steps in programming 
+
+int x = 12; 
+
+declaretion 
+
+int x; 
+String name; 
+double y; 
+
+
+initialization 
+x=12;
+name = "michael";
+
+y=12.12;
+
+one line of code
+double y = 12.12; 
+
+datatype variablename = value; one step 
+
+datatype variablename; 
+variablename = value; 
+
+2. conditional statment: 
+are statment that executed based on if a condition is true or false
+
+jdk version 8 ir 1.8
+eclipse 2019-06 
+
+x=12; 
+y=13; 
+
+x=y; 
+
+x==y if x is equal to y >> false
+
+x>y if x is greater than y >> false
+
+x<y if x is less than y >> true
+
+conditional statment : 
+if any code or lines of codes, executed based on one or multiple 
+condition, then we call them conditinal statement 
+
+
+
+
+if(condition) {
+
+code if the condition is true
+
+}
+
+
+// relationship between boolean value and if condition
+// bolean variable can be use as result of conditional operator
+
+
+task 1: you can declare 4 variables 
+int string boolean double 
+and print the value of those variables 
+
+task 2: create 3 integer variables, 
+add the value in a seperate variable and print them 
+
+anik@agile1tech.com 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

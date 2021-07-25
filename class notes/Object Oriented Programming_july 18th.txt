@@ -1,0 +1,185 @@
+object oriented programming - Java , C# 
+
+why you need to OOP? 
+
+1. java programmer - OOP 
+2. interview 
+3. it can definitely help you to write better code 
+
+main method - running your code - staring point your code
+
+Class : prototype of a system - design of a system 
+properties  - global variables 
+methods - functions - 
+
+building a design for a car - 
+
+properties of the system car  - color, vin number, garage address, price 
+what the system can do - drive, break, accelerate, open up window 
+
+facebook - 2 billions 
+properties - name, address, posts, email address, dob 
+function - post, like, chat, send money 
+
+bankaccount - 
+properties - account number, name, amount of money, 
+email address, routing number 
+function - deposit, withdraw, application for extension, payment 
+bills 
+
+object is the user of the system or the class - 
+
+user1 - 
+user2 - 
+
+object will get all the non-static properties and functions of the 
+class 
+
+key point 1: 
+
+any number if no value setup it will be 0 
+any string if no value setup the default value - null 
+
+key point 2: 
+if you want any properties of function not to be copied to
+object then you make those static 
+
+key point 3: 
+
+constructor: created with the classname 
+can be multiple, object needs to satisfy at least one constructor 
+
+
+scanner sc = new scanner(system.in)
+
+loginpage lp = new loginpage(driver)
+
+when we have multiple constructor different by parameters
+we call it constructor overloading 
+
+user1.deposit()
+
+method overloading P: two or more than two methods with same name
+and different parameters calls method overloading 
+
+Components of OOP: 
+
+1. How to design a single class 
+
+properties and methods
+constructor - constructor overloading
+method - method overloading 
+static - part of the class 
+
+
+2. how to create relationship between multiple classes 
+
+inheritence - super class and sub class 
+or parent class and child class 
+
+child class object will get everything ( properties and functions)
+from parent class - but parent class object will not get anything 
+from child class 
+
+parent page object model class - basepageclass
+
+abstract class 
+interface 
+
+facebook user
+facebook page 
+
+method overriding: if child class has the same function as
+parent class, child class object must have to use its own function
+
+super keyword: to use the parent class function anyway
+
+abstract class : you can not create an object of the class - 
+use it through child classes 
+
+interface: you create a design or prototype that will be implemented by other class 
+
+we can not create any function but only can define 
+
+selenium webdriver is an interface 
+
+interface : interface is not a real class, interface is a template
+of list of methods that can be implemented by any class 
+
+3. misscellenious 
+
+accessibility - how you can access your properties or function 
+
+access modifier 
+public - you can call the function in its own class, within the same package and out side of the pakcage 
+private - is only available inside the class , not outside the class
+whether it is same package or not
+protected - you can call it from your own and from you own package 
+no modifier - same as protected 
+
+
+usage of OOP in automation testing : 
+
+1. global and local variable 
+2. class and object - 
+3. static - 
+4. page object model - inhertance - share common web elements 
+utitlity - 
+
+4 properties of OOP - 
+
+encapsulation - properties and function in the same class
+
+abstraction - 
+an abstract class - you can not create an object 
+private functions and properteis - that no on can see from outside class 
+
+inheritance - relationship between child and parent class 
+
+polymorphism - one thing in different forms 
+method overloading - same name of function can be implemented
+differntly 
+
+car 
+sedan class
+
+sedan honda = new sedan(); 
+
+honda is a sedan
+honda is also a car 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

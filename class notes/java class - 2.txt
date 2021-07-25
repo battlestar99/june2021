@@ -1,0 +1,197 @@
+conditional Statement : 
+
+1. what is datatype, variable and value? 
+
+int, String, double, boolean - 
+int >> whole number 
+String >> character or set of charecter
+double >> decimal number 
+boolean >> conditional statment >> true or false 
+
+variable is a place holder >> 
+
+String address; 
+
+int number; 
+
+number = 123; 
+
+String number = "34342";
+
+// declaretion and initialization of variable 
+
+int x; 
+
+x = 123; 
+
+x=234; 
+
+
+2. what is main method? 
+
+without main method we can not run 
+
+main method is the starting point of the code 
+
+
+3. what is operator? 
+
++ - * / 
+
+int x = 12; 
+int y = 30; 
+
+int sum = x+y; 
+int sub = x-y; 
+
+convert celsius temparature and want you to convert it to
+farenhite 
+
+celsius value is 12 >> 
+
+farenhite = ((celsius*9)/5)+32
+
+4. what is conditional statement? 
+== 
+>
+<
+
+if I go to california{something will happen}
+else if I will go to oregon {something will happen}
+
+else if I will go to washinton{something will happen}
+else I will stay at virginia 
+
+creditscore 
+
+if(creditscore>700{
+
+apr = 1.5;
+}
+
+else if(creditscore<700 & creditscore >650{
+
+apr = 2.5;
+}
+
+
+and and or operator 
+
+
+first one
+if I can go to california and I have a job 
+then I will go to see yosemite mountain 
+
+
+second one
+if I can go to california or I have a job 
+then I will go to see bigsur 
+
+
+&& >> AND 
+|| >> or 
+software: 
+
+create a software that will calculate your monthly car payment
+if you buy a car from a dealship 
+software will be used by the dealership 
+
+
+solutions: 
+
+basecarPrice 
+dealership fee 
+downpayment
+finance amount 
+credit score
+based on the credit score you get an apr 
+final finance amount based on the apr 
+how many months you want to pay for the finance amount 
+monthly payment = totalfinanceamount/number of months
+100 dollar for something
+and tax is 3 percent 
+
+totaltax = 100*(3/100);
+=3
+
+
+
+
+
+
+
+1. creating class {}
+2. main method {}
+3. write all the code inside the main method 
+
+datatype variable value
+operator + - 
+conditional operation == , > , < , &&, ||
+conditional statment 
+looping >> for loop and while loop 
+
+
+starting point , condition , increament or decreament operation 
+
+x=1, x<100, x++
+
+java is a case sensitve - a and A is not same
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+problem : write a program to calculate the sum of first 
+10 natural numbers 
+
+
+1+2+3+4+5+6+7+8+9+10 .....+100 +.. + 999
+
+int sum = 0 ; 
+
+for (int x = 1; x<11;x++){
+
+sum=sum+x; 
+
+// sum = 1
+//sum = 3
+//sum = 6
+//sum = 10
+//sum = 15
+
+
+}
+
+data
+conditional
+loop 
+data structure - arrary, list, linkedlist, 
+function/method - 
+
+class will start at 10AM 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

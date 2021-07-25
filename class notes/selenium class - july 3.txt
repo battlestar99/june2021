@@ -1,0 +1,276 @@
+Responsibilitie of an Automation Tester: 
+
+2 months or 3 months release - 
+
+new module
+modified funcionalities
+bug fixes 
+
+4 - 6 sprints 
+
+1. writing your code - test scripts
+2. managing or organizing - 
+3. reporting - 
+
+smoke testing >> important and critical >> automation testing
+
+500 test scripts 
+70 test scripts 
+
+regression - 500 test scripts 
+520 test scripts - 2/3 times in a week 
+
+sanity testing >> new functionalites , simple bug fixes 
+
+UAT testing >> 
+selenium - java - 
+
+web based UI testing - 
+
+HTML and CSS
+
+2 important component of selenium test script 
+
+1. making sure you can find an web element - locating tecniques
+2. how you interact with the web element 
+
+Test scenario - 
+
+requirment analysis >> coming up with test scenario 
+creating test cases or test scripts >> executing test 
+cases or test scripts >> analyzing report , log or tracking defect
+
+
+
+
+
+<input class="search_query form-control ac_input" type="text" id="search_query_top" name="search_query" placeholder="Search" value="" autocomplete="off">
+
+
+id
+name
+xpath
+css selector
+
+looking for a link << anchor tag or a tag
+linktext
+partiallinktext  
+
+classname
+tagname 
+
+
+//*[@id="search_query_top"]
+
+/html/body/div/div[1]/header/div[3]/div/div/div[2]/form/input[4]
+
+
+
+
+<input class="search_query form-control ac_input" type="text" id="search_query_top" name="search_query" placeholder="Search" value="" autocomplete="off"
+elementid = '1'>
+
+xpath and css selector are not fundamental attribute 
+
+//tagname[@attribute='value']
+
+//input[@id='search_query_top']
+//input[@name='search_query']
+//input[@elementid='1']
+
+//*[@name='search_query']
+
+absolute xpath
+
+/html/body/div/div[1]/header/div[3]/div/div/div[2]/form/input[4]
+
+css selector 
+
+tagname[attribute='value']
+input[id='search_query_top']
+
+
+relative xpath >> xpath that is created from fundamental attribuyte
+
+
+
+3 web element 
+id = search
+
+1. what locating tecniuqes you prefer to use? 
+id/name
+xpath
+
+2. did you create modified xpath or your own, and why? 
+
+you dont have unique id or name 
+
+
+
+
+
+
+
+
+first name text box - code 
+<input class="search_query form-control ac_input" type="text" id="name" name="textbox" placeholder="Search" value="" autocomplete="off", webid='1'>
+
+last name text box - code 
+<input class="search_query form-control ac_input" type="text" id="name" name="textbox" placeholder="Search" value="" autocomplete="off",webid='2'>
+
+//input[@webid='1']
+
+//input[@webid='2']
+
+absolute xpath
+
+/html/body/div/div[1]/header/div[3]/div/div/div[2]/form/input[4]
+
+1. use id or name if available or even xpath
+2. if not unique attribute available, tell your developer to give one
+and create xpath from that
+3. if your developer is not with you- use absolute xpath 
+
+anchor tag - linktext or partial link text 
+
+reasons code can fail - 
+
+organizing code - 
+
+selenium has functions for waiting - 
+
+implicit wait - makes sure all webelement of the page is loaded
+before staring to find out 
+explicit wait - one web element of the page - some of the weblements are not loaded initially - 
+
+
+
+driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+10 second = timeout time 
+timeout exception 
+
+3 seconds - 
+4 seconds - 
+
+thrad.sleep(5000)
+
+from java
+thread.sleep
+
+no such element exception >> 
+
+1. locating tecniuqe wroing - id 
+2. time latency - 
+
+
+
+
+
+
+
+how many times you might need to use a web element? 
+
+sign in - 5 webelements 
+
+5 scenarios - 5 test scripts 
+
+25 times 
+
+location of one of the weblement changes - 
+
+username text box in 10 test scripts 
+
+id=username >> now it changes 
+
+id=username1
+15 web elements - 
+
+10 different test scritps >> 
+
+150 places you have to go to fix your code 
+
+
+60 webelemnts - 20 test scripts 
+
+1200 
+
+Test framework to fix this issue - 
+
+1. object driven framework - it will seperate the web elemnt
+from the test script
+
+seperating the web element from the test script 
+
+test script is what we can execute to execute test. 
+
+web elements or web objects 
+
+page object model class - how many web pages we are going to 
+test 
+
+10 web pages - 10 page object model
+
+
+functions for each web element 
+
+
+public WebElement getusename(){
+
+}
+
+constructor - is something that gets exectued as soon as
+an object is create 
+
+
+
+
+
+
+
+
+
+public int go(){
+
+return 12;
+}
+
+pubilc void go(){
+
+}
+
+public webelement getusername(){
+
+return webelment; 
+}
+
+
+
+
+
+
+
+
+
+
+
+why we need to create page object model? 
+
+how you create? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,156 @@
+TestNG Testing Library: 
+
+
+0. How to setup TestNG? 
+
+TestNG jar file - maven repository 
+eclipse plugin for testng - you can run testNG test 
+
+1. How to organize your project? 
+
+project >> 
+      packages >> testscripts, pageobjectmodel, utility 
+
+testscripts >> test scripts >> runanble classes >> test ng
+page object >> not runnable classes >> storing web elements
+utility >> not runanble class >> do any other utility related work
+test suite >> 
+
+
+2. How to create pass/fail scenario? 
+
+assertion >> compare expected result with actual result 
+
+expected resutlt >> requirement docs 
+actual result >> obtain after executing test 
+read title, url, text, check if any webelement if available 
+
+3. what are the annotations you are using? 
+
+beforetest
+test
+aftertest
+
+
+
+4. how do you sequence your test? 
+alphabatical 
+priority 
+
+enabled=false
+
+5. tell me about your test framework or test structure? 
+
+6. what are the components of your test framework? 
+
+page object model - object driven framework
+seperating data from test script - data driven framework 
+
+200 tests >> 
+
+run these tests - 5 days in a week 
+
+10 tests fail 
+
+
+cross browser testing >> 
+
+
+
+1. test organization- @annoations
+2. pass/fail scenario - assertion
+3. report generation - TestNG 
+4. test suite - 500 tests - smoke, regression - XML 
+5. framwork - object driven - page object model
+data driven - XML 
+
+3 testers in the team -- 1 automation testing skills 
+2 - manual testing skills 
+
+user story >> dept of health and human service 
+
+covid money - 2 weeks 
+
+
+
+
+50 test scripts >> 50 test cases/scenario 
+
+300 test scenario 
+
+how many tests you automated? 
+
+140 test cases 
+
+1. creating a test suite 
+
+2. creating a data driven framework 
+
+XML - extensible markup language 
+
+XML/json 
+
+<class name="packagename.classname"></class>
+
+Test Suite >> collection of test cases - 
+
+how to create a data driven framework using testNG ? 
+
+data driven framework : 
+
+test data - you use specifically for testing 
+
+seperating the test data from test scripts 
+excel file - 20 sets of data 
+database -
+xml file - 1- 15 - 20 sets of data 
+feature file - cucumber
+
+if(username=standdarudr){
+
+expectedresutl = specifict
+}
+
+if(username=prblemuser){
+
+expectedresutl = somethingurl
+}
+
+
+
+
+
+
+
+
+
+
+parallel="tests"
+firstname
+lastname
+username
+password
+dfjkdf
+
+dsfaldjs
+dsafjdls
+dasfljdsa
+
+7/8 different fields 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

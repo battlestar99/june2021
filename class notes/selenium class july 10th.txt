@@ -1,0 +1,196 @@
+Selenium Class - July 10th 
+
+
+java programming language - 
+class - 
+run - main method
+can't run - doesnt have main method 
+main method - scripts - test scripts - 
+
+class - scritps - test scripts 
+
+1. how to store data - variable int/string/boolean/double
+2. if/else condition
+3. looping - read data from excel 
+4. data structure - efficient - array, list, 
+5. functions/methods 
+ a. how to create a function
+ b. how to use a function that you created
+ c. how you can use a function from a programming library 
+
+algorithm - 
+
+programming libary - java 
+
+   1. jar file - java archive file 
+whats inside a java library - 
+
+           1. class - non runnable classes 
+
+
+methods, constructor - 
+selenium code structure - 
+finding web elements - 
+creating framework - what is a framework 
+
+How to use testing library and why? 
+
+
+
+what is my problem 
+
+come up with a solution
+
+
+
+programming libary vs your own function 
+
+1. library - functions are already created by someone - 
+we can not modify the function - we dont have any access to the
+function 
+
+creating a library -- 
+
+1. 100 classes - non runnable3 
+2. 2000 functions 
+3. make zip file and upload it 
+
+free - you dont have to pay
+opensource - 
+
+sendkeys();
+
+build path - when you run code - your code will look for all libraries or dependencies 
+
+
+structure of a test scripts - web based application testing 
+
+login panel - and ask you test it 
+
+1. opening up a browser
+2. navigating to an url
+3. enter username
+4. enter password 
+5. click on login button 
+
+expected result - user should logged in 
+actual resutl  - user logged in - 
+
+test passes 
+
+automate the testing process - 
+
+write some code - code will do that 
+
+java - selenium - browser interaction 
+
+windows based application - it will not work
+
+
+
+web based applcation testing 
+
+3 tiers - 
+
+UI testing - manual and automated - 70 percent 
+api/web service - api testing - postman/soap ui - rest assured 
+database - database testing 
+
+
+
+
+
+
+
+15 - 20 functions 
+
+requirements - application 
+
+manual test case - 
+
+
+facebook - class
+
+properties of the facebook class
+username
+password
+email
+gender
+dob 
+city 
+numberofuser
+
+action of the facebook class 
+post()
+like()
+report()
+share()
+static resetaccount()
+
+
+when a new user of facebook is created 
+
+facebook anik = new facebook(); 
+
+facebook michael = new facebook(); 
+
+
+global and local variable 
+static - not part of any object, just stay in class 
+
+automation testing structure: 
+
+object driven frameowork - page object model to seperate
+web elements from test scripts 
+data driven framework - sepearting test data from test scripts
+
+1. you can write a script - 
+maintainance and usuability - 
+
+
+public class homepage(){
+
+
+
+
+}
+
+code is  not working - you need to fix the code 
+test if failing - you can log a defect 
+problem : 
+
+1. you can not run multiple script - you can not create 
+a test suite 
+2. no pass/fail scenario 
+3. to test with multiple sets of data 
+4. it does not generate any report 
+5. you need to a better way to organize your code 
+
+Testing library - 
+TestNG 
+Cucumber - 
+framework - 
+
+setting up TestNG - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

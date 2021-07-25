@@ -1,0 +1,104 @@
+Cucumber Testing Framework - 
+
+
+why we are using testing framwork: 
+
+java and selenium only for web interaction 
+
+1. organization of code 
+2. test report 
+3. data driven testing 
+4. test suite 
+5. create pass fail scenario 
+
+TestNG, JUnit - traditional java testing framework, UNIT testing 
+framework 
+
+cucumber - behaviour driven framework - BDD 
+
+1. cucumber is for manual and automation tester both
+
+@Test 
+funciton 
+bunch of code 
+
+
+
+
+
+
+
+manual test case type part - manual test case 
+feature file 
+
+automation test case part - code 
+step def file - java file 
+
+test runner - test suite - Junit 
+
+gherkin keywords - gherkin language 
+
+test feature - scanario - 
+
+one scenario - 1 test case 
+Feature
+Scenario: 
+
+5 keywords 
+Given - describle the pre-requirment of a test 
+When - user action 
+And - adding multiple when or then steps 
+Then - response of the software application 
+But - if we are expecting negative response from the application
+
+login panel 
+
+Given user is on the login page 
+When user enters valid user name 
+And user enters valid password
+And user clicks on the login button
+Then user should login to the new page
+
+search functionaltieis 
+
+Given user is on the product search page
+When user enters selenium books to search
+And clicks on the search button 
+Then search result should contain selenium books
+And  search result should contain price of the books 
+
+
+
+feature: given, when, then these are gherking keyword
+step def : given, when, then these will annotations 
+
+glue code - step def 
+
+1. page object model 
+2. creating data driven frameowork 
+
+seperating the test data from test script
+
+using a data table 
+
+page has no relation with testing 
+
+
+
+
+3. background and hook 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
