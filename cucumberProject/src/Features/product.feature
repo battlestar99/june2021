@@ -2,6 +2,7 @@
 
 Feature: propduct checkout feature 
 
+@smoke
 Scenario: validating that user can add and checkout product 
 
 Given user is on product page 

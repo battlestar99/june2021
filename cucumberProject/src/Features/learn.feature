@@ -1,6 +1,7 @@
 
 Feature: sample testing scenario 
 
+@uat
 Scenario: this is one sample testing scanrio
 
 Given a

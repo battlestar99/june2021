@@ -5,6 +5,7 @@ Feature: login panel
 Background:  
 Given user is on the login page 
 
+@uat @abc
 Scenario: validating login panel with valid credentials 
 
 When user enters valid username
@@ -13,6 +14,8 @@ And user clicks on the login button
 Then user should be on the account page 
 And user should close the browser
 
+
+@uat
 Scenario: validating login panel with invalid credentials
 
 

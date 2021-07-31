@@ -1,5 +1,7 @@
 Feature: login panel testing with multiple data
 
+
+@uat @smoke
   Scenario Outline: validating login panel with different credentials
     Given user is on the login page
     When user enters username "<username>"

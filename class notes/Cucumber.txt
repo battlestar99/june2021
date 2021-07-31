@@ -89,6 +89,51 @@ page has no relation with testing
 3. background and hook 
 
 
+cucumber - 
+
+Test Runner - 
+Test Reports - 
+
+
+code organization - 
+maven, git/github, Jenkins 
+
+
+
+
+
+
+
+cucumber test >> 
+
+1. setting up cucumber environment - jar files and plugins 
+
+2. need to create cucumber feature
+.feature
+
+
+
+10 features - 55 scenarios - table testing - step def
+
+12 feature - 43 scenario - stepdefOne
+
+test suites - collection of test case 
+
+Test Runner - test suite + creating test report 
+
+Junit test runner 
+
+specifying test - tags 
+
+hooks - want to exectue something before and after any feature file 
+
+before and after an scenario - Background
+
+@Before
+
+@After 
+
+
 
 
 

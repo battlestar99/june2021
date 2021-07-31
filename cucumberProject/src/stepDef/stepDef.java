@@ -7,9 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import junit.framework.Assert;
 import pages.cartPage;
 import pages.loginPage;
 import pages.productPage;
@@ -21,6 +24,32 @@ public class stepDef {
 	loginPage lp; 
 	productPage pp; 
 	cartPage cp; 
+	
+	
+	
+	@Before
+	public void beforeFeature() {
+	
+		System.out.println("This is before feature");
+		
+	}
+	
+	@After
+	public void afterFeature() {
+		
+		System.out.println("This is after feature");
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	@Given("^user is on the login page$")
@@ -64,6 +93,8 @@ public class stepDef {
 		String url = driver.getCurrentUrl();
 		
 		System.out.println(url);
+		
+		Assert.assertEquals("test1", "test1");
 	
 	
 	}

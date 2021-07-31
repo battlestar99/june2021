@@ -1,0 +1,17 @@
+code organization in your computer - 
+
+1. only one project - build on a build management system 
+
+2. import the project in your eclipse - just start working on that 
+
+
+writing code in local machine - maven project 
+
+you need to push the code to a company code repository - 
+github, bitbucket 
+
+running test - local machine 
+running test - remote server - Jenkins, CI/CD pipeline 
+
+
+
