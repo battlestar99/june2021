@@ -15,3 +15,256 @@ running test - remote server - Jenkins, CI/CD pipeline
 
 
 
+How are you running your test? 
+
+how do you share your result? 
+
+do you have any remote server setup or not? 
+
+Maven project - 
+
+1. how everyone on the project is using same version of library? 
+
+2. how the project importable? 
+
+
+
+TestNG and cucumber both - you are not going to use
+
+maven project 
+TestNG - Structure 
+  testscript pacakge 
+  page object model package - object driven framework
+test suite - xml files - xml file you are using to store data by using 
+parameter
+utility package 
+
+libraries - jar file 
+
+cucumber - 
+
+     features folder - feature by using scenario outline and example keywords 
+     step definition package
+     page object model pacakge - object driven framework
+     testunner 
+     utility 
+      
+      
+
+maven - heart of maven 
+
+pom.xml 
+
+project object model 
+
+maven has two repository - 
+
+central repository - web 
+local repository - in your local computer - .m2 
+
+reading from an excel - utility class
+function to open brwoser - utility class 
+
+maven - git/github - jenkins 
+maven - is a project build management system - 
+gradle
+ant 
+
+  1. dependency management - jar files/libraries - 
+pom.xml file 
+project object model 
+
+  2. import project easily - conventient to share project 
+
+  3. we can not run code from remote server unless we use 
+build mangament system 
+main method of java 
+
+jenkins 
+
+maven test >> surefile xml >> regression.xml 
+
+
+
+java application
+testng Test
+TestNG suite
+feature file 
+
+run as java applcation >> running java main method 
+
+
+How we run testNG script? 
+
+run ast TestNG Test >> running just one script
+run as  TestNG Suite >> running xml file  
+
+
+How you run cucumber script? 
+
+run as Cucumber feature >> running one feature file 
+run as Junit Test runner >> running as Test Suite 
+
+Maven >> 
+
+build >> clean install
+
+
+build commands 
+
+clean>> cleaning up the temp folder, results 
+
+install>> going to make sure all depencies and plugins are 
+installed 
+
+test >> going to run some code 
+app.java 
+
+generate-source>> maven is going to create a jar file
+for the whole project 
+
+you want to run some test script? 
+
+maven test - surefile plugin 
+
+   pom.xml 
+
+       1. depency - jar files 
+        2. plugins - specific functionalities for maven
+
+
+
+
+
+
+
+sharing the project with people >> project is shared 
+
+    1. code repository - github / Bitbucket 
+
+
+using a code repository 
+
+  1. scenario 1: project is already in the repo you need to start
+using it 
+
+   2. you are starting from beginning - nothing is there 
+
+devops - development and operations 
+system admin 
+
+git >> version control system, code sharing system 
+
+     1. 
+
+local repo - in your computer
+remot repo - in the web
+
+3 automation testers - 
+
+
+
+
+
+
+
+git clone - for download a freash project 
+
+
+git push - uploading your local code to remote 
+
+
+git pull - download from remote to your local 
+
+3 automation tester >> 
+
+version 5 
+
+john - version 6 ( 10 AM in the morning) 
+
+mike - 3 PM in the afternoone
+version 7 
+
+heather 
+
+branching >> 
+
+master branch 
+
+mike is the automation test lead >> 
+
+download john and heather code in his local
+run them
+test them
+then merge it to master branch 
+
+
+mike >> mike branch
+
+john >>john branch
+
+heather>> heather branch 
+
+
+
+
+
+
+
+
+
+what is your reponsibilities: 
+
+1. writing code in local 
+2. modify, test run your code 
+3. push the code the repository 
+4. pull to get the update from the repo
+
+how to run the code from a remote server? 
+
+   1. remote server is required so every one can run code 
+
+agile1tech.com.test/jenkins
+
+CI/CD pipeline? 
+
+Contineous integration and contineous development 
+
+
+
+jenkins>> maven test >> surefile xml >> regression.xml >> 
+list of test scrtips 
+
+cucumber
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
