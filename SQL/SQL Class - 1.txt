@@ -1,0 +1,173 @@
+Basics of software testing 
+
+SDLC - Agile-scrum, waterfall 
+Type of testing - smoke, regression, sanity, UAT 
+web based applicatoni testing 
+
+Frontend - UI - GUI - Mobile 
+Functionality of the application - Functional testing 
+
+end-user 
+
+60/70 functional testing - manual , automation testing 
+java, selenium, TestNG, cucumber - maven, git/github
+
+devops people - jenkins, bamboo
+
+30/50 non-functional testing 
+
+this is not functionality an user doesnt use directly 
+
+front-end  - web UI , mobile UI 
+
+Backend - database, web service/api 
+
+database testing 
+web service/api testing 
+
+performance testing
+security testing - penatration testing 
+
+database : where data of the application is stored 
+
+relational database management system - rdms
+
+query language - 
+
+SQL - structured query language 
+
+2 tier application - 
+
+front end - database 
+
+3 tiers application - 
+
+front-end - web api/web service - database  
+
+database - schema 
+
+
+columns - field 
+rows - record or entry 
+
+
+CRUD - 
+
+create new data
+
+read existing data - 90 
+
+update existing data
+
+delete existing data 
+
+
+
+
+SQL - query language - how to get data from a database 
+
+reading - 
+
+Select columnNames from tablename where filteringrecordorentry 
+
+And condition - all condition has to be true
+or condition - one condition has to be true 
+
+
+
+
+
+find out a customer who is from fairfax, bought more than 30 products and less than 27 years age 
+
+select customername from customertable 
+where city=fairfax and numerofproducts>30 and age < 27
+
+
+order by - can sequence data in 2 ways
+
+alphabatical order - string 
+ascending or descening order - number
+
+inserting data in the database - 
+
+FIFO - 
+
+aggregate functions - 
+
+min max count avg sum
+
+Structure of any database table: 
+
+datatype - 
+constraints - 
+
+char(size) - char(20) - must 20 characters 
+varchar(size) - varchar(20)- maximum character is 20 
+int - numbers 
+Text  - 65K characters 
+blob - storing pics 
+
+sql query for creating database: 
+
+Create customers 
+(
+
+firstname varchar(50)
+lastname varchar(40)
+address  Text 
+age          int 
+SSN        char(9)
+pic     blob
+
+)
+
+
+constraints: 
+
+NOT NULL - it can not be null 
+unique - data has to be unique in the column
+primary key - Not null + unique 
+Foreign key - relationship with other table 
+Check - to create a specific condition 
+Default - for no value entered 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
