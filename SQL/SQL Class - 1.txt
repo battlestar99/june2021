@@ -112,14 +112,25 @@ sql query for creating database:
 Create customers 
 (
 
-firstname varchar(50)
-lastname varchar(40)
+firstname varchar(50) Not null
+lastname varchar(40) Not Null 
 address  Text 
-age          int 
-SSN        char(9)
-pic     blob
+age          int  check age>18
+SSN        char(9) primary key
+pic     blob  default locationofthepic
+email varchar(50) Not Null, Unique 
+cid int   Not Null 
+Foreign key (CID) References products(pid) 
+Foreign key (SSN) References creditcardinfo(SSN) 
+
 
 )
+
+
+50 tables - 
+
+products - productname, price, pid 
+credit card info - ssn 
 
 
 constraints: 
@@ -137,10 +148,183 @@ Default - for no value entered
 
 
 
+CRUD - create read update delete 
+
+read - 90 percent operation 
+
+select column from table where filtering 
+
+which column to see
+from which table
+filtering required 
+
+the goal of using a primary key is to make sure there is 
+one unique identification for each record or entry 
+
+not null + unique 
 
 
 
 
+
+
+
+
+
+
+
+
+customer information table - name, address, phone number, cid, ssn, email
+credit card information table - card no, expire date, cid
+product information table - product name, buyer name , cid
+
+
+name  card no  product name cid 
+
+
+joins - 
+
+select columnname from tablename where filtering
+
+SELECT customer.Name, products.products
+FROM customer INNER JOIN Products
+ON customer.cid = products.pid
+where customer.email='mike@gmail.com';
+
+find out how much john spent on buying products 
+price - sum
+name - 
+
+Select customer.name, SUM(customer.price)
+FROM customer INNER JOIN Products
+ON customer.cid = products.pid
+where customer.email='john@gmail.com';
+
+--------------------------------------------------------------------------------
+Select customer.name, COUNT(products.price)
+FROM customer INNER JOIN Products
+ON customer.cid = products.pid
+where customer.email='john@gmail.com';
+
+------------------------------------------------------------------------
+how many products each person bought and total spent for 
+each person 
+
+Select customer.name, COUNT(products.price), SUM (product.price) 
+FROM customer INNER JOIN Products
+ON customer.cid = products.pid; 
+
+-----------------------------------------------------------------------------------
+
+inner join - only the matching data from both table
+
+left join - all data from left table and only matching data 
+from right table
+
+right join - all data from right table and only matching data 
+from left table
+
+
+full outer join - all data from all tables
+
+
+------------------------------------------------------------------------------------------
+create - database, table, data 
+read - 90 percent of operation 
+update - table, data
+delete -  table, data 
+
+
+create db1; 
+
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+
+----------------------------------------------------------------------------------------
+
+updating table 
+
+add or modify columns, columns structure 
+
+customer - age 
+
+alter table customer add age int NOT NULL
+alter table customer drop age 
+alter table customer modify age int check age>18 NOT NULL
+
+deleting table 
+
+drop table customer - the table will be fully deleted from the 
+database 
+truncate table customer - only for deleting data the table exists 
+
+------------------------------------------------------------------------------------
+
+updating data 
+
+update customer set cid = 107, city='arlington' where name='mike'
+
+deleting 
+
+delete from customer where cid=104 
+
+-------------------------------------------------------------------------------------
+
+what is your role on SQL: 
+
+backend - database testing 
+extracting data from the database 
+
+testing database : 
+
+data mapping : mapping the front-end user interface with 
+back-end tables 
+
+data integrity : constraint testing - 
+
+data validation: validate data in the front and back-end 
+
+what you did in datbase? 
+
+oracle
+ms sql server - 
+my sql - 
+
+setting up database: 
+
+1. ask you to install an database workbench 
+
+toad
+
+2. vpn - 
+192.167.23.234
+
+my sql workbench - oracle database 
+
+
+cloud environment - AWS 
+
+database - 150 sql queries - 
+
+api testing - 200 requests 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jobs@agile1tech.com 
 
 
 
